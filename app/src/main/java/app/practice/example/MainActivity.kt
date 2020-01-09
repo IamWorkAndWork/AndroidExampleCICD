@@ -39,9 +39,15 @@ class MainActivity : AppCompatActivity() {
                     Analytics.trackEvent("wrong_age", properties)
                 }
 
-                txtResult.text =
-                    "InterestedRate = ${interestedRate}, currentAge = $currentAge, retirementAge = ${retirementAge}, " +
-                            "monthlySaving = $monthlySaving, currentSaving = $currentSaving"
+                val compute = computeResult(
+                    interestedRate,
+                    currentAge,
+                    retirementAge,
+                    monthlySaving,
+                    currentSaving
+                )
+
+                txtResult.text = compute
 
             } catch (e: Exception) {
                 Analytics.trackEvent(e.message)
@@ -51,6 +57,19 @@ class MainActivity : AppCompatActivity() {
 //            throw Exception("Something went wrong")
 //            Crashes.generateTestCrash()
         }
+
+    }
+
+    private fun computeResult(
+        interestedRate: Float,
+        currentAge: Int,
+        retirementAge: Int,
+        monthlySaving: Int,
+        currentSaving: Int
+    ): String {
+
+        return "InterestedRate = ${interestedRate}, currentAge = $currentAge, retirementAge = ${retirementAge}, " +
+                "monthlySaving = $monthlySaving, currentSaving = $currentSaving"
 
     }
 
