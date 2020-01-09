@@ -38,6 +38,11 @@ class MainActivity : AppCompatActivity() {
                 if (retirementAge <= currentAge) {
                     Analytics.trackEvent("wrong_age", properties)
                 }
+
+                txtResult.text =
+                    "InterestedRate = ${interestedRate}, currentAge = $currentAge, retirementAge = ${retirementAge}, " +
+                            "monthlySaving = $monthlySaving, currentSaving = $currentSaving"
+
             } catch (e: Exception) {
                 Analytics.trackEvent(e.message)
             }
