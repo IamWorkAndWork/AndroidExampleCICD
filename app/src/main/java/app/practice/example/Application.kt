@@ -15,5 +15,6 @@ class Application : Application() {
             this, "457f9415-f782-4f23-921a-405cab74a1a9",
             Analytics::class.java, Crashes::class.java
         )
+        
     }
 }
