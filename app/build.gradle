@@ -20,7 +20,7 @@ android {
     signingConfigs {
         debug {
             keyPassword 'phutsa6941'
-            storeFile file('testcert')
+            storeFile file('testcert.keystore')
             storePassword 'phutsa6941'
             keyAlias 'theera'
         }
