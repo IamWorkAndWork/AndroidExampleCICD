@@ -11,6 +11,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c0ece55a-f4c5-4bee-9772-3d5ee6ab85ab" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/app/src/main/java/app/practice/example/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/practice/example/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/testcert" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,17 +40,22 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/app/practice/example/MainActivity.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+            <state relative-caret-position="156">
+              <caret line="37" column="23" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="23" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+              <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -58,7 +64,7 @@
         <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/app/practice/example/TestComputeResult.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="507">
-              <caret line="161" column="10" lean-forward="true" selection-start-line="161" selection-start-column="10" selection-end-line="161" selection-end-column="10" />
+              <caret line="161" column="10" selection-start-line="161" selection-start-column="10" selection-end-line="161" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -140,6 +146,41 @@
             <path>
               <item name="Example" type="b2602c69:ProjectViewProjectNode" />
               <item name="CICD" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="Example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CICD" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="Example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CICD" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CICD" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CICD" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CICD" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+              <item name="values" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -389,9 +430,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestComputeResult - 2020.01.11 at 00h 24m 32s.xml">
-      <configuration name="TestComputeResult" configurationId="AndroidTestRunConfigurationType" />
-    </history-entry>
     <history-entry file="TestComputeResult - 2020.01.11 at 00h 32m 34s.xml">
       <configuration name="TestComputeResult" configurationId="AndroidTestRunConfigurationType" />
     </history-entry>
@@ -419,6 +457,9 @@
     <history-entry file="TestComputeResult - 2020.01.11 at 01h 11m 15s.xml">
       <configuration name="TestComputeResult" configurationId="AndroidTestRunConfigurationType" />
     </history-entry>
+    <history-entry file="TestComputeResult - 2020.01.11 at 10h 20m 56s.xml">
+      <configuration name="TestComputeResult" configurationId="AndroidTestRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -439,17 +480,17 @@
       <window_info id="DB Browser" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info id="Capture Tool" order="5" />
-      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.18025751" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.18025751" />
       <window_info id="Image Layers" order="7" />
       <window_info id="Resources Explorer" order="8" />
       <window_info id="Structure" order="9" side_tool="true" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="0" />
       <window_info anchor="bottom" id="DB Execution Console" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32765958" />
-      <window_info anchor="bottom" id="Android Profiler" order="3" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32719547" />
+      <window_info anchor="bottom" id="Android Profiler" order="3" />
       <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
       <window_info anchor="bottom" id="TODO" order="5" weight="0.32907802" />
-      <window_info anchor="bottom" id="Build" order="6" visible="true" weight="0.33286119" />
+      <window_info anchor="bottom" id="Build" order="6" weight="0.33286119" />
       <window_info anchor="bottom" id="Logcat" order="7" weight="0.32907802" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" />
@@ -571,21 +612,24 @@
     <entry file="file://$PROJECT_DIR$/app/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/app/practice/example/TestComputeResult.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="507">
-          <caret line="161" column="10" lean-forward="true" selection-start-line="161" selection-start-column="10" selection-end-line="161" selection-end-column="10" />
+          <caret line="161" column="10" selection-start-line="161" selection-start-column="10" selection-end-line="161" selection-end-column="10" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/app/practice/example/MainActivity.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+        <state relative-caret-position="156">
+          <caret line="37" column="23" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="23" />
         </state>
       </provider>
     </entry>
