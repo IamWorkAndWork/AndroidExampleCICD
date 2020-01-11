@@ -34,7 +34,7 @@ class MainActivity : AppCompatActivity() {
 
         btCalculate.setOnClickListener {
 
-            Crashes.generateTestCrash()
+//            Crashes.generateTestCrash()
             //            Analytics.trackEvent("btSayHello Clicked");
 
             try {
