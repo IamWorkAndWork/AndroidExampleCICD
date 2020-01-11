@@ -1,10 +1,12 @@
 package app.practice.example
 
 import android.os.Bundle
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import com.microsoft.appcenter.analytics.Analytics
+import com.microsoft.appcenter.crashes.Crashes
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -17,6 +19,13 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        val futue = Crashes.hasCrashedInLastSession()
+        futue.thenAccept {
+            if (it) {
+                Toast.makeText(this, "Oops, Sorry About That", Toast.LENGTH_SHORT).show()
+            }
+        }
+
         viewModel = ViewModelProviders.of(this).get(MainViewModel::class.java)
 
         viewModel.result.observe(this, Observer {
@@ -25,6 +34,7 @@ class MainActivity : AppCompatActivity() {
 
         btCalculate.setOnClickListener {
 
+//            Crashes.generateTestCrash()
             //            Analytics.trackEvent("btSayHello Clicked");
 
             try {
