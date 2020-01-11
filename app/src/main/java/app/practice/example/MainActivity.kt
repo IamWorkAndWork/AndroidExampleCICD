@@ -2,16 +2,26 @@ package app.practice.example
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import androidx.lifecycle.Observer
+import androidx.lifecycle.ViewModelProviders
 import com.microsoft.appcenter.analytics.Analytics
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
 
 
+    lateinit var viewModel: MainViewModel
+
     override fun onCreate(savedInstanceState: Bundle?) {
 
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        viewModel = ViewModelProviders.of(this).get(MainViewModel::class.java)
+
+        viewModel.result.observe(this, Observer {
+            txtResult.text = it
+        })
 
         btCalculate.setOnClickListener {
 
@@ -39,7 +49,15 @@ class MainActivity : AppCompatActivity() {
                     Analytics.trackEvent("wrong_age", properties)
                 }
 
-                val compute = computeResult(
+//                val compute = computeResult(
+//                    interestedRate,
+//                    currentAge,
+//                    retirementAge,
+//                    monthlySaving,
+//                    currentSaving
+//                )
+
+                viewModel.computeResult(
                     interestedRate,
                     currentAge,
                     retirementAge,
@@ -47,7 +65,6 @@ class MainActivity : AppCompatActivity() {
                     currentSaving
                 )
 
-                txtResult.text = compute
 
             } catch (e: Exception) {
                 Analytics.trackEvent(e.message)
@@ -60,17 +77,5 @@ class MainActivity : AppCompatActivity() {
 
     }
 
-    private fun computeResult(
-        interestedRate: Float,
-        currentAge: Int,
-        retirementAge: Int,
-        monthlySaving: Int,
-        currentSaving: Int
-    ): String {
-
-        return "InterestedRate = ${interestedRate}, currentAge = $currentAge, retirementAge = ${retirementAge}, " +
-                "monthlySaving = $monthlySaving, currentSaving = $currentSaving"
-
-    }
 
 }
